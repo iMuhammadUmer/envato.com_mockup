@@ -267,3 +267,12 @@ main .content {
   height: 225px;
   border-left: 1px solid black;
 }
+.community {
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid var(--silver);
+}
