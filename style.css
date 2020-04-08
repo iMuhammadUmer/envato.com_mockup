@@ -10,6 +10,9 @@
   --greenHover: #6d9837;
   --blue: #181a2d;
   --subscriptionP: #d4d4d4;
+  --bannerColHover: #2a2d48;
+  --bannerCol: #e9e9e9;
+  --typesBg: #25283e;
 }
 header {
   height: 80px;
@@ -106,7 +109,7 @@ button a {
   padding-top: 6px;
 }
 main {
-  height: 1500px;
+  height: 1300px;
   width: 100%;
   background-color: var(--blue);
   display: flex;
@@ -192,14 +195,14 @@ main .content {
   transition: 0.3s ease;
 }
 .bannerCol:hover {
-  background-color: #2a2d48;
+  background-color: var(--bannerColHover);
 }
 .bannerCol p {
   font-size: 16px;
   line-height: 29px;
   font-weight: 400;
   margin-top: 1em;
-  color: #e9e9e9;
+  color: var(--bannerCol);
 }
 #GraphicTemplates {
   width: 220px;
@@ -223,4 +226,12 @@ main .content {
   height: 115px;
   width: 1px;
   border-right: 1px solid black;
+}
+.types {
+  width: 100%;
+  height: 377px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--typesBg);
 }
