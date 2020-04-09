@@ -464,3 +464,8 @@ main .content {
   height: 68px;
   width: 145px;
 }
+.team {
+  height: 840px;
+  width: 100%;
+  background-color: var(--marketBg);
+}
