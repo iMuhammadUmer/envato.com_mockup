@@ -349,3 +349,7 @@ main .content {
   color: var(--col);
   margin-bottom: 3em;
 }
+.market {
+  height: 670px;
+  width: 100%;
+}
