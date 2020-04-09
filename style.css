@@ -467,5 +467,66 @@ main .content {
 .team {
   height: 840px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--marketBg);
+}
+#green {
+  color: var(--green);
+}
+.team .content {
+  height: 540px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team .teamDescription {
+  width: 570px;
+  height: 250px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--grey);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.teamImgs {
+  width: 540px;
+  height: 535px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.teamImgs .row {
+  width: 540px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.teamImgs img {
+  border-radius: 5px;
+}
+#img1 {
+  width: 210px;
+  height: 250px;
+  margin-top: 4em;
+}
+#img2 {
+  width: 320px;
+  height: 315px;
+  margin-left: 5px;
+}
+#img3 {
+  width: 230px;
+  height: 165px;
+}
+#img4 {
+  width: 218px;
+  height: 210px;
+  margin-left: 5px;
 }
