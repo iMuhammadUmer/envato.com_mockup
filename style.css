@@ -530,3 +530,15 @@ main .content {
   height: 210px;
   margin-left: 5px;
 }
+footer {
+  height: 290px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0 0 10px var(--silver);
+}
+footer .content {
+  height: 200px;
+  width: 100%;
+}
